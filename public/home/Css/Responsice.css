@@ -1,0 +1,1009 @@
+﻿@media screen and (max-width: 1199px)
+{
+    @font-face
+    {
+        font-family: 'RobotoBold';
+        src: url('fontface/RobotoBold.eot'); /* IE9 Compat Modes */
+        src: url('fontface/RobotoBoldd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fontface/RobotoBold.html') format('woff'), /* Modern Browsers */
+        url('fontface/RobotoBold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fontface/RobotoBold-2.html#RobotoBold') format('svg'); /* Legacy iOS */
+    }
+    @font-face
+    {
+        font-family: 'RobotoMedium';
+        src: url('fontface/RobotoMedium.eot'); /* IE9 Compat Modes */
+        src: url('fontface/RobotoMediumd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fontface/RobotoMedium.html') format('woff'), /* Modern Browsers */
+        url('fontface/RobotoMedium.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fontface/RobotoMedium.svg#RobotoMedium') format('svg'); /* Legacy iOS */
+    }
+    .khoi1170
+    {
+        width:calc(100% - 40px);
+        margin:auto;
+    }
+    #header
+    {
+        height:81px;
+        z-index:10;
+    }
+    #header .contenthd .chensubmenu
+    {
+        width:36px;
+        height:36px;
+        border-radius:50%;
+        font-size:0;
+        float:right;
+        right:0;
+        margin-top:27px;
+        background:#f58634 url('pic/submenu.png') no-repeat center;
+    }
+    #header .contenthd .chensubmenu.active
+    {
+        background:#f58634 url('pic/closemenu.png') no-repeat center;
+    }
+    #header .menu
+    {
+        display:none;
+        width:100%;
+        position:absolute;
+        z-index:99999;
+        top:83px;
+        left:0;
+        padding-top:50px;
+        height:auto;
+        background: #f3f3f3;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+    #header .menu.active
+    {
+        display:block;
+    }
+    #header .menu .mainmenu
+    {
+        width:calc(100% + 40px);
+        margin-left:-20px;
+        margin-right:-20px;
+        height:auto;
+        float:none;
+    }
+    #header .menu .mainmenu > ul
+    {
+        display:block;
+    }
+    #header .menu .mainmenu > ul > li
+    {
+        position:relative;
+        display:block;
+        float:none;
+        background: #f3f3f3;
+        padding: 0 30px 0 15px;
+        height: auto;
+        border-top: 1px solid #e7e7e7;
+    }
+    #header .menu .mainmenu > ul > li.home
+    {
+        padding-left:15px;
+    }
+    #header .menu .mainmenu > ul > li > a
+    {
+        padding: 12px 0 8px 0;
+        display: inline-block;
+        font-family:RobotoMedium;
+        height: auto;
+        line-height: 25px;
+        color: #333;
+    }
+    #header .menu .mainmenu > ul > li:hover > a,
+    #header .menu .mainmenu > ul > li.active > a
+    {
+        color:#333;
+    }
+    #header .menu .mainmenu > ul > li.topmenucon .clickmenu
+    {
+        width: 15px;
+        height: 16px;
+        position: absolute;
+        z-index: 9999999;
+        top: 15px;
+        right: 11px;
+        background:url('pic/limenu.png') no-repeat center;
+    }
+    #header .menu .mainmenu > ul > li.topmenucon.acset .clickmenu
+    {
+        background:url('pic/limenu_hv.png') no-repeat center;
+    }
+    #header .menu .mainmenu > ul > li.topmenucon.acset
+    {
+        background:#0e76bc;
+    }
+    #header .menu .mainmenu > ul > li.topmenucon.acset > a
+    {
+        color:#fff;
+    }
+    #header .menu .mainmenu > ul > li > ul
+    {
+        position: relative;
+        display: none;
+        width: calc(100% + 45px) !important;
+        margin-left: -15px;
+        border-top:none;
+        margin-right: -30px;
+        background: #fff;
+        overflow:hidden;
+        left: 0 !important;
+        transform: none !important;
+        padding: 0;
+    }
+    #header .menu .mainmenu > ul > li:hover > ul
+    {
+        display:none;
+    }
+    #header .menu .mainmenu > ul > li.acset > ul
+    {
+        display:block;
+    }
+    #header .menu .mainmenu > ul > li > ul > li
+    {
+        display: block;
+        width:calc(100% - 10px);
+        padding-right: 10px;
+        border-top: 1px solid #e7e7e7;
+    }
+    #header .menu .mainmenu > ul > li > ul > li > a
+    {
+        padding: 12px 0 8px 0;
+        padding-left: 28px;
+        font-family: RobotoMedium;
+        font-size: 14px;
+        color: #333;
+        line-height: 25px;
+        display: inline-block;
+        background: url(pic/limenuconsub.png) no-repeat left 16px top 19px;
+    }
+    #header .menu .mainmenu > ul > li > ul > li:hover > a
+    {
+        color:#333;
+    }
+    #header .menu .mainmenu > ul > li > ul > li.active > a
+    {
+        color:#f58634;
+        background:url('pic/limenuconsub_hv.png') no-repeat left 28px top 19px;
+    }
+    #header .menu .search
+    {
+        display:block;
+        position: absolute;
+        top: 0;
+        float: none;
+        margin-top:8px;
+        width: calc(100% - 40px);
+        border-left: none;
+    }
+    #header .menu .search .timkiem
+    {
+        background:url('pic/search1.png') no-repeat right center;
+    }
+    #header .menu .search input[type="text"]
+    {
+        background:#f3f3f3;
+        font-size:14px;
+        color:#333;
+    }
+    #header .menu .search ::-webkit-input-placeholder {color: #333;font-family:RobotoItalic;}
+    #header .menu .search ::-moz-placeholder {color: #333;font-family:RobotoItalic;opacity: 1}
+    #header .menu .search :-moz-placeholder {color: #333;font-family:RobotoItalic;opacity: 1}
+
+    #header .contenthd .lienhetop,
+    #header .contenthd .tuyendungtop
+    {
+        display:none;
+    }
+    #header .contenthd .hotlinetop
+    {
+            background: url(pic/hotlinetop.png) no-repeat left top;
+            margin-right:25px;
+    }
+    .mainslide .slick-prev
+    {
+        left:20px;
+    }
+    .mainslide .slick-next
+    {
+        right:20px;
+    }
+    .PageContentHome
+    {
+        padding-top:20px;
+    }
+    .PageContentHome .left,
+    .PageContentHome .right
+    {
+        width:100%;
+        float:none;
+    }
+    .subdanhmuc > ul
+    {
+        height:279px;
+        overflow-y:scroll;
+    }
+    .subtinnoibat,
+    .subduantieubieu,
+    .subthongketuycap,
+    .subAdvleft
+    {
+        display:none;
+    }
+    .lstdssanpham .itemsanpham
+    {
+        width: calc((100% - 5px)/4);
+    }
+    .lstdssanpham .itemsanpham:nth-child(5n)
+    {
+        border-right:none;
+    }
+    .lstdssanpham .itemsanpham:nth-child(4n)
+    {
+        border-right:1px solid #eee;
+    }
+    .lstdssanpham .itemsanpham:nth-child(n + 5)
+    {
+        display:none;
+    }
+    #dknhanbantin .lstdknhanbantin
+    {
+        width:100%;
+    }
+    #dknhanbantin .lstdknhanbantin .guiemailnhandk
+    {
+        width:calc(100% - 470px);
+        margin-left:20px;
+    }
+    #footer .footercontent .info
+    {
+        width: 47.91453%;
+        margin-right:60px;
+    }
+    #footer .footercontent .danhmuc_footer
+    {
+        margin-right:0;
+        width: 43.54522%;
+    }
+    #footer .footercontent .danhmuc_footer:nth-child(3)
+    {
+        clear:both;
+        width: 47.91453%;
+        margin-right:55px;
+        margin-top:25px;
+    }
+    #footer .footercontent .ketnoi
+    {
+        width:44%;
+        float:left;
+        margin-top:25px;
+    }
+    #muiten .btn-top
+    {
+        right:20px;
+        bottom:60px;
+    }
+    .subhotline_footer
+    {
+        display:block;
+        position:fixed;
+        z-index:999;
+        bottom:0;
+        left:20px;
+        height:40px;
+        width:auto;
+        border-top-left-radius:7px;
+        border-top-right-radius:7px;
+        background:#f58634;
+    }
+    .subhotline_footer .hotlinefix
+    {
+        font-family:RobotoBold;
+        font-size:16px;
+        color:#fff;
+        line-height:40px;
+        display:inline-block;
+        padding:0 27px;
+    }
+    .PageContentLoadControl
+    {
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .subdanhmuctintuc
+    {
+        padding-top:20px;
+    }
+    .lstdmtintuc .itemtintuc
+    {
+        width: calc((100% - 41px)/3);
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .lstdmtintuc .itemtintuc:nth-child(4n)
+    {
+        margin-right:20px;
+    }
+    .lstdmtintuc .itemtintuc:nth-child(3n)
+    {
+        margin-right:0;
+    }
+    .PageContentLoadControl .left,
+    .PageContentLoadControl .right
+    {
+        width:100%;
+        float:none;
+    }
+    .PageContentLoadControl .right
+    {
+        margin-top:20px;
+    }
+    .menudanhmuc
+    {
+        display:none;
+    }
+    .PageContentLoadControl .right .subhotrotructuyen
+    {
+        margin-bottom:0;
+    }
+    #dknhanbantin
+    {
+        padding-bottom:3px;
+    }
+    .binhluanface .row
+    {
+        width: calc(100% - 30px);
+        padding: 14px;
+    }
+    .lstdstailieu .itemtailieu .title_note_tailieu .note_tailieu
+    {
+        line-height:20px;
+    }
+    .lstdsduan .itemduan
+    {
+        width: 100%;
+        float: none;
+    }
+    .lstdsduan .itemduan .khungAnh
+    {
+        width: 27.1228%;
+    }
+    .lstdsduan .itemduan .ttduan
+    {
+        width: calc(100% - 27.1228% - 20px);
+    }
+    .lstdsduan .itemduan .ttduan .ngoaia
+    {
+        height:auto;
+        max-height:44px;
+    }
+    .sublienhe .hotrolienhe .lstdshotrolh .itemhotrolh
+    {
+        width:calc(100% - 2px);
+        float:none;
+        margin-top:20px;
+        margin-right:0;
+    }
+    .sublienhe .hotrolienhe .lstdshotrolh .itemhotrolh .khungAnh
+    {
+        width: 28.26056%;
+    }
+    .sublienhe .hotrolienhe .lstdshotrolh .itemhotrolh .ttnguoihotro
+    {
+        width: calc(100% - 28.26056% - 22px);
+    }
+    .sublienhe .formlh_bandomap
+    {
+        margin-top:35px;
+        padding-top:20px;
+    }
+    .sublienhe
+    {
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .subdanhmucsanpham
+    {
+        padding-top:20px;
+    }
+    .lstdmsanpham .itemsanpham
+    {
+        width: calc((100% - 41px)/3);
+        float: left;
+        overflow: hidden;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .lstdmsanpham .itemsanpham:nth-child(4n)
+    {
+        margin-right:20px;
+    }
+    .lstdmsanpham .itemsanpham:nth-child(3n)
+    {
+        margin-right:0;
+    }
+    .lstdmsanpham .itemsanpham:nth-child(4n + 1)
+    {
+        clear:none;
+    }
+    .lstdmsanpham .itemsanpham:nth-child(3n + 1)
+    {
+        clear:both;
+    }
+    .lstdmsanpham .itemsanpham .ngoaia .title
+    {
+        font-size:15px;
+    }
+    .subdssanpham .lstdssanpham .itemsanpham:nth-child(n + 5)
+    {
+        display:block;
+    }
+    .subdssanpham .lstdssanpham .itemsanpham:last-child
+    {
+        border-right:1px solid #eee;
+    }
+    .PageContentLoadControl .subdanhmuc
+    {
+        display:none;
+    }
+    .subchitiet_sp .motasanpham .left,
+    .subchitiet_sp .motasanpham .right
+    {
+        width:100%;
+        float:none;
+    }
+    .subchitiet_sp .motasanpham .right
+    {
+        margin-top:30px;
+    }
+    .subctspbottom .left,
+    .subctspbottom .right
+    {
+        width:100%;
+        float:none;
+    }
+    .subctspbottom .right
+    {
+        margin-top:0px;
+    }
+    .slidesanphamkhac .slick-dots
+    {
+        bottom:10px;
+    }
+    .subsplienquan .lstdssanpham .itemsanpham
+    {
+        width: calc(25% - 1px);
+    }
+    .subsplienquan .lstdssanpham .itemsanpham:nth-child(n + 5)
+    {
+        display:block;
+    }
+    .subsplienquan .lstdssanpham .itemsanpham:nth-child(4n)
+    {
+        border-right:none;
+    }
+    .subgiohang .thogntindonhang .formgiohang thead .stt,
+    .subgiohang .thogntindonhang .formgiohang tbody .stt
+    {
+        width: 43px;
+    }
+    .subgiohang .thogntindonhang .formgiohang thead .giaban,
+    .subgiohang .thogntindonhang .formgiohang tbody .giaban
+    {
+        width: 108px;
+    }
+    .subgiohang .thogntindonhang .formgiohang thead .soluong,
+    .subgiohang .thogntindonhang .formgiohang tbody .soluong
+    {
+        width:78px;
+    }
+    .subgiohang .thogntindonhang .formgiohang thead .thanhtien,
+    .subgiohang .thogntindonhang .formgiohang tbody .thanhtien
+    {
+        width:108px;
+    }
+    .subgiohang .thogntindonhang .formgiohang thead .title,
+    .subgiohang .thogntindonhang .formgiohang tbody .title
+    {
+        padding-left:10px;
+    }
+    #footer .commonfootercontent
+    {
+        margin-bottom:40px;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    @font-face
+    {
+        font-family: 'RobotoBold';
+        src: url('fontface/RobotoBold.eot'); /* IE9 Compat Modes */
+        src: url('fontface/RobotoBoldd41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fontface/RobotoBold.html') format('woff'), /* Modern Browsers */
+        url('fontface/RobotoBold.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fontface/RobotoBold-2.html#RobotoBold') format('svg'); /* Legacy iOS */
+    }
+    @font-face
+    {
+        font-family: 'RobotoRegular';
+        src: url('fontface/RobotoRegular.eot'); /* IE9 Compat Modes */
+        src: url('fontface/RobotoRegulard41d.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fontface/RobotoRegular.html') format('woff'), /* Modern Browsers */
+        url('fontface/RobotoRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fontface/RobotoRegular-2.html#RobotoRegular') format('svg'); /* Legacy iOS */
+    }
+    .khoi1170
+    {
+        width:calc(100% - 20px);
+        margin:auto;
+    }
+    #header .menu .mainmenu
+    {
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .lstdssanpham .itemsanpham
+    {
+        width: calc((100% - 3px)/2);
+    }
+    .lstdssanpham .itemsanpham:nth-child(2n)
+    {
+        border-right: 1px solid #eee;
+    }
+    .listcate .item_cate .tieude
+    {
+        padding-right:12px;
+    }
+    #header .menu .search
+    {
+        width: calc(100% - 20px);
+    }
+    .mainslide .mb {display: block;}
+    .mainslide .pc {display: none;}
+    .mainslide .khungAnh:before{padding-bottom: 53.68421%;}
+    .hotline2
+    {
+        display:none;
+        width:100%;
+        height:37px;
+        background:#f58634;
+    }
+    .hotline2 .hotlinesauslide
+    {
+        padding-left:39px;
+        font-family:RobotoRegular;
+        font-size:20px;
+        line-height:37px;
+        color:#fff;
+        background:url('pic/hotline2.png') no-repeat left 10px center;
+    }
+    .hotline2 .hotlinesauslide .sohotline2
+    {
+        font-family:RobotoBold;
+    }
+    #dknhanbantin .lstdknhanbantin .tieude_dk
+    {
+        display:none;
+    }
+    #dknhanbantin .lstdknhanbantin .guiemailnhandk
+    {
+        width:100%;
+        margin-left:0;
+    }
+    #footer .footercontent .info
+    {
+        width:100%;
+        float:none;
+        margin-right:0;
+    }
+    #footer .footercontent .danhmuc_footer
+    {
+        width:100%;
+        float:none;
+        margin-top:25px;
+        margin-right:0;
+    }
+    #footer .footercontent .ketnoi
+    {
+        width:100%;
+        float:none;
+    }
+    #footer .footercontent .danhmuc_footer:nth-child(3)
+    {
+        width:100%;
+        float:none;
+        margin-top:25px;
+        margin-right:0;
+    }
+    #muiten .btn-top
+    {
+        width:30px;
+        right:10px;
+        height:30px;
+    }
+    #muiten .btn-top img
+    {
+        width:100%;
+    }
+    .subhotline_footer
+    {
+        left:10px;
+    }
+    .subhotline_footer .hotlinefix
+    {
+        padding:0 15px;
+    }
+    #footer .commonfootercontent
+    {
+        margin-bottom:40px;
+    }
+    .mainslide .slick-prev
+    {
+        left:10px;
+    }
+    .mainslide .slick-next
+    {
+        right:10px;
+    }
+    #header .contenthd .hotlinetop
+    {
+        display:none;
+    }
+    #CommonCuoiChiTietTin a.print
+    {
+        margin-right:0;
+    }
+    #CommonCuoiChiTietTin .phai
+    {
+        margin-top:5px;
+    }
+    .thongke .thongke_right .fb-like
+    {
+        display:none;
+    }
+    .subgioithieu_ct .lstdsgioithieukhac .itemds_gtkhac .listtieude .title
+    {
+        font-size:17px;
+    }
+    .subgioithieu_ct .lstdsgioithieukhac .itemds_gtkhac .ttgioithieu_con
+    {
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+    .subgioithieu_ct .topic_gioithieu
+    {
+        margin-bottom:15px;
+    }
+    .PageContentLoadControl .topic
+    {
+        line-height:22px;
+        margin-bottom:5px;
+    }
+    .listcatedm .note_list
+    {
+        width:100%;
+        margin-top:20px;
+    }
+    .lstdmtintuc
+    {
+        margin-top:20px;
+    }
+    .lstdmtintuc .itemtintuc
+    {
+        width:100%;
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    .subdstintuc .lstdstintuc .itemtintuc .khungAnh
+    {
+        width:100%;
+        float:none;
+    }
+    .subdstintuc .lstdstintuc .itemtintuc .ttdstintuc
+    {
+        width:100%;
+        float:none;
+        margin-top:10px;
+    }
+    .binhluanface .row
+    {
+        width: calc(100% - 10px);
+        padding:14px 4px;
+    }
+    .lstdstailieu .itemtailieu .title_note_tailieu
+    {
+        width:calc(100% - 18px);
+        clear:both;
+        float:none;
+    }
+    .lstdsduan .itemduan
+    {
+        margin-bottom:20px;
+        margin-right:0;
+    }
+    .lstdsduan .itemduan .khungAnh
+    {
+        width:100%;
+        float:none;
+    }
+    .lstdsduan .itemduan .ttduan
+    {
+        width:calc(100% - 10px);
+        padding-left:5px;
+        padding-right:5px;
+        float:none;
+        padding-bottom:10px;
+    }
+    .lstdmsanpham .itemsanpham
+    {
+        width:100%;
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    #duongdanlink .khoi1170
+    {
+        overflow:hidden;
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+    .duongdan_link
+    {
+        width:600px;
+    }
+    .subchitiet_sp .subttsanpham .noidungttsp
+    {
+        width:calc(100% - 22px);
+        padding:20px 10px;
+    }
+    .subgiohang
+    {
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+    .subgiohang .thogntindonhang
+    {
+        overflow-x:scroll;
+        overflow-y:hidden;
+    }
+    /*.subgiohang .thogntindonhang .formgiohang
+    {
+        width:800px;
+    }
+    .subgiohang .thogntindonhang .tongtien
+    {
+        width:780px;
+    }*/
+    .subgiohang .formttkhachhang
+    {
+        width: calc(100% - 20px);
+        padding: 18px 9px;
+    }
+    .subgiohang .formttkhachhang .motaluuy
+    {
+        line-height:20px;
+    }
+    .subgiohang .formdathang .itemformlh
+    {
+        width:100%;
+        float:none;
+    }
+    .sublienhe .hotrolienhe .lstdshotrolh .itemhotrolh .khungAnh
+    {
+        width:100%;
+        float:none;
+    }
+    .sublienhe .hotrolienhe .lstdshotrolh .itemhotrolh .ttnguoihotro
+    {
+        width:calc(100% - 20px);
+        padding-left:10px;
+        padding-right:10px;
+        float:none;
+    }
+    .sublienhe .formlh_bandomap .left
+    {
+        width:100%;
+        float:none;
+    }
+    .sublienhe .formlh_bandomap .left .formlienhe
+    {
+        margin-top:5px;
+    }
+    .sublienhe .formlh_bandomap .right
+    {
+        width:100%;
+        float:none;
+        margin-top:30px;
+    }
+    .sublienhe .formlh_bandomap .right .bandomap
+    {
+        margin-top:20px;
+    }
+    .subgiohang .thogntindonhang .formgiohang thead
+    {
+        display:none;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody tr:nth-child(2n+2)
+    {
+        background:#fff;
+    }
+    .subgiohang .thogntindonhang .formgiohang,
+    .subgiohang .thogntindonhang .formgiohang tbody,
+    .subgiohang .thogntindonhang .formgiohang tbody tr
+    {
+        display:block;
+    }
+
+    .subgiohang .thogntindonhang .formgiohang tbody .stt
+    {
+        width: calc(60% - 1px);
+        display: block;
+        position:relative;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .stt:before
+    {
+        content:"STT : ";
+        position:absolute;
+        z-index:2;
+        top:0;
+        left:0;
+        width:calc(40% - 10px);
+        height:100%;
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .image
+    {
+        width: calc(60% - 1px);
+        display: inline-block;
+        position:relative;
+        height:auto;
+        padding-top:5px;
+        padding-bottom:5px;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .image:before
+    {
+        content:"Ảnh sản phẩm : ";
+        position:absolute;
+        z-index:2;
+        top:50%;
+        left:0;
+        width:calc(40% - 10px);
+        height:auto;
+        transform:translateY(-50%);
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .image img
+    {
+        height:auto;
+        width:25%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .title
+    {
+        width: calc(60% - 1px);
+        display: block;
+        position:relative;
+        padding-top:5px;
+        padding-bottom:5px;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .title:before
+    {
+        content:"Tên sản phẩm : ";
+        position:absolute;
+        z-index:2;
+        top:50%;
+        transform:translateY(-50%);
+        left:0;
+        width:calc(40% - 10px);
+        height:auto;
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .giaban
+    {
+        width: calc(60% - 1px);
+        display: block;
+        position:relative;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .giaban:before
+    {
+        content:"Giá bán : ";
+        position:absolute;
+        z-index:2;
+        top:0;
+        left:0;
+        width:calc(40% - 10px);
+        height:100%;
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .soluong
+    {
+        width: calc(60% - 1px);
+        display: block;
+        position:relative;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .soluong:before
+    {
+        content:"Số lượng : ";
+        position:absolute;
+        z-index:2;
+        top:0;
+        left:0;
+        width:calc(40% - 10px);
+        height:100%;
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .thanhtien
+    {
+        width: calc(60% - 1px);
+        display: block;
+        position:relative;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .thanhtien:before
+    {
+        content:"Thành tiền : ";
+        position:absolute;
+        z-index:2;
+        top:0;
+        left:0;
+        width:calc(40% - 10px);
+        height:100%;
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .xoa
+    {
+        width: calc(60% - 1px);
+        display: block;
+        position:relative;
+        text-align:left;
+        line-height:25px;
+        padding-left: 40%;
+    }
+    .subgiohang .thogntindonhang .formgiohang tbody .xoa:before
+    {
+        content:"Xoá : ";
+        position:absolute;
+        z-index:2;
+        top:0;
+        left:0;
+        width:calc(40% - 10px);
+        height:100%;
+        padding-left:5px;
+        color:#333;
+        font-family:RobotoBold;
+    }
+}

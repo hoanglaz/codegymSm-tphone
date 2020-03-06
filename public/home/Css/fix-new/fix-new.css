@@ -1,0 +1,35 @@
+﻿#footer .footercontent .info .web_footer.bg_dif{
+    background: url(icon-1.png) no-repeat left top 4px;
+}
+#footer .footercontent .info .web_footer.bg_fit{
+    background: url(icon-2.png) no-repeat left top 4px;
+}
+.lstdssanpham .itemsanpham .ngoaia h3{
+    text-align: center;
+}
+#footer .commonfootercontent .khoi1170 .seo-tt{
+    float: right;
+}
+#footer .commonfootercontent .khoi1170 .gp-kh{
+    float: left;
+    font-family: RobotoRegular;
+    font-size: 13px;
+    color: #e7e7e7;
+}
+#footer .commonfootercontent{
+    content: '';
+    display: block;
+    clear: both;
+}
+.subhotrotructuyen .lstdshotro .itemdshotro .titlt_hotline .iconskype{
+    width: 18px;
+    height: 17px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    background: url(icon-skype.png) no-repeat center;
+}
+.subhotrotructuyen .lstdshotro .itemdshotro .titlt_hotline{
+    margin-bottom: 5px;
+}

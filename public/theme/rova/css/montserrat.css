@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-ExtraBold.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/alegreya/AlegreyaSanSC-ExtraBold.woff2') format('woff2'),
+		url('../fonts/alegreya/AlegreyaSanSC-ExtraBold.woff') format('woff'),
+		url('../fonts/alegreya/AlegreyaSanSC-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-SemiBold.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-SemiBold.eot?#iefix') format('embedded-opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-Medium.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-Medium.eot?#iefix') format('embedded-opentype');
+	
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-Regular.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-Regular.eot?#iefix') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-ExtraLight.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/alegreya/AlegreyaSanSC-ExtraLight.woff2') format('woff2'),
+		url('../fonts/alegreya/AlegreyaSanSC-ExtraLight.woff') format('woff'),
+		url('../fonts/alegreya/AlegreyaSanSC-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-Light.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-Light.eot?#iefix') format('embedded-opentype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-Thin.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-Thin.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/alegreya/AlegreyaSanSC-Thin.woff2') format('woff2'),
+		url('../fonts/alegreya/AlegreyaSanSC-Thin.woff') format('woff'),
+		url('../fonts/alegreya/AlegreyaSanSC-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-Black.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/alegreya/AlegreyaSanSC-Black.woff2') format('woff2'),
+		url('../fonts/alegreya/AlegreyaSanSC-Black.woff') format('woff'),
+		url('../fonts/alegreya/AlegreyaSanSC-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/alegreya/AlegreyaSanSC-Bold.eot');
+	src: url('../fonts/alegreya/AlegreyaSanSC-Bold.eot?#iefix') format('embedded-opentype');
+	font-weight: bold;
+	font-style: normal;
+}
